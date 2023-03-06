@@ -9,15 +9,17 @@
                 color: white;
             }
 
-            body {
+            .body1 {
                 float: left;
+                position: static;
+                padding-left: 3rem;
+                padding-right: 3rem;
             }
 
-            *   {
-                box-sizing: content-box;
-            }
-
-            .aside {
+            aside {
                 float: right;
+                position: static;
                 width: 50%;
+                padding-left: 5rem;
+                padding-right: 5rem;
             }
