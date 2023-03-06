@@ -1,0 +1,23 @@
+<style>
+            h1 {
+                background-color: aquamarine;
+                color: white;
+            }
+
+            h2 {
+                background-color: aquamarine;
+                color: white;
+            }
+
+            body {
+                float: left;
+            }
+
+            *   {
+                box-sizing: content-box;
+            }
+
+            .aside {
+                float: right;
+                width: 50%;
+            }
