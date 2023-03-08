@@ -1,25 +1,70 @@
 <style>
-            h1 {
-                background-color: aquamarine;
-                color: white;
+
+            header {
+                background-color: rgb(51, 212, 233);
             }
 
-            h2 {
-                background-color: aquamarine;
+            h1 {
+                background-color: rgb(51, 212, 233);
+                height: 6rem;
+                text-align: left;
+                font-family: sans-serif;
+                font-size: 4rem;
                 color: white;
+                padding-left: 5rem;
+            }
+
+            h2  {
+                background-color: rgb(51, 212, 233);
+                height: 6rem;
+                text-align: left;
+                font-family: sans-serif;
+                font-size: 2rem;
+                color: white;
+                padding-left: 5rem;
             }
 
             .body1 {
                 float: left;
                 position: static;
-                padding-left: 3rem;
-                padding-right: 3rem;
+                text-align: left, center;
+                font-family: sans-serif;
+                padding-left: 5rem;
+                padding-right: 5rem;
+            }
+
+            .body2 {
+                float: left;
+                position: static;
+                font-family: sans-serif;
+                padding-left: 5rem;
+                padding-right: 5rem;
+            }
+
+            .body3 {
+                float: left;
+                position: static;
+                font-family: sans-serif;
+                padding-left: 5rem;
+                padding-right: 5rem;
             }
 
             aside {
                 float: right;
                 position: static;
-                width: 50%;
+                width: 30%;
+                font-family: sans-serif;
+                padding-left: 5rem;
+                padding-right: 5rem;
+            }
+
+            footer {
+                background-color: darkgrey;
+                float: bottom;
+                position: absolute;
+                text-align: center;
+                font-family: sans-serif;
+                padding-top: 2rem;
                 padding-left: 5rem;
                 padding-right: 5rem;
             }
